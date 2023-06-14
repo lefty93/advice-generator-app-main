@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.advice-container {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(217, 19%, 24%);
+  padding: 30px 50px;
+  margin: auto 20px;
+  width: fit-content;
+  height: fit-content;
+  max-width: 550px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.text-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adviceID {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: hsl(150, 100%, 66%);
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.adviceText {
+  padding: 30px;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.divider {
+  
+  margin: 20px 0 30px;
+  width: 100%;
+}
+
+#dice {
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  padding: 15px 16px 12px;
+  border: 0;
+  margin: 0 auto -65px;
+}
+
+#dice img {
+  width: 45px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  cursor: pointer;
+}
+
+#dice:hover {
+  box-shadow: 0 0 40px hsl(150, 100%, 66%);
+}
+
+.attribution {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
